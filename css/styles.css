@@ -20,7 +20,7 @@ ul {
 
 }
 .header-titel-type {
-    color: #4D5AE5;
+    color: #4d5ae5;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -29,12 +29,7 @@ ul {
     text-transform: uppercase;
 }
 .header-logo-studio {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    color: #2E2F42;
 }
 
 .header-list {
@@ -44,11 +39,11 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-list :hover {
-    color: #404bbf;
+.header .header-titel .menu a:hover {
+    color: #404bbf
 }
-.header-list :focus {
-    color: #404bbf;
+.header .header-titel .menu a:focus {
+    color: #404bbf
 }
 .header-address {
     color: var(--SLATE, #434455);
