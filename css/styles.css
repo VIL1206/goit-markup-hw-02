@@ -4,27 +4,59 @@ a {
 ul {
     list-style-type: none;
 }
-header {
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
+.header {
+    display: flex;
+    width: 1440px;
+    height: 72px;
 }
-.logo-web {
+.webstudio {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.logo {
     color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
 }
-.logo-studio {
+.logo-two {
     color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+.menu-nav-list {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.menu-footer {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5em;  
+    letter-spacing: -0.02em;
+}
+.address {
+    padding-left: 332px;
+}
+.phone-gmail {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
