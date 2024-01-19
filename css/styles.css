@@ -19,16 +19,16 @@ ul {
 .header-titel {
 
 }
-.header-titel-type {
+.logo {
     color: #4d5ae5;
-    font-family: Raleway;
+    font-family: Raleway,sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.header-logo-studio {
+.logo-studio {
     color: #2E2F42;
 }
 
@@ -77,9 +77,20 @@ ul {
     letter-spacing: 0.02em;
 }
 .main-btm {
-    border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.main-titel button:hover {
+    color: #404BBF
+}
+.main-titel button:focus {
+    color: #404BBF
 }
 
 /**====================**/
@@ -115,6 +126,9 @@ ul {
     letter-spacing: 0.02em;;
     text-transform: capitalize;
 }
+.team-group {
+    background: var(--WHITE, #FFF);
+}
 .group-programmers {
 
 }
@@ -136,11 +150,6 @@ text-transform: uppercase;
 }
 .footer-titel-type {
     color: var(--CLOUD, #F4F4FD);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 .footer-paragraph {
     color: var(--CLOUD, #F4F4FD);
