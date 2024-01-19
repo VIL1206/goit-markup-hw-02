@@ -78,6 +78,8 @@ ul {
 }
 .main-btm {
     background: var(--IRIS, #4D5AE5);
+}
+.btm-content {
     color: var(--WHITE, #FFF);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -86,10 +88,10 @@ ul {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.main-titel button:hover {
+.main-titel a:hover {
     color: #404BBF
 }
-.main-titel button:focus {
+.main-titel a:focus {
     color: #404BBF
 }
 
