@@ -45,12 +45,21 @@ ul {
 .header .header-titel .menu a:focus {
     color: #404bbf
 }
+.address-header {
+    font-style: normal
+}
 .header-address {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
+}
+.address-header a:hover {
+    color: #404bbf
+}
+.address-header a:focus {
+    color: #404bbf
 }
 /**====================**/
 
