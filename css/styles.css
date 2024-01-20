@@ -84,15 +84,16 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    color: #ffffff
 }
 .btm-content {
     color: var(--WHITE, #FFF);
 }
 .main-titel a:hover {
-    color: #404BBF
+    background-color: #404BBF
 }
 .main-titel a:focus {
-    color: #404BBF
+    background-color: #404BBF
 }
 
 /**====================**/
