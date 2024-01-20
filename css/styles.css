@@ -86,13 +86,11 @@ ul {
     cursor: pointer;
     color: #ffffff
 }
-.btm-content {
-    color: var(--WHITE, #FFF);
-}
-.main-titel a:hover {
+
+.main-titel button:hover {
     background-color: #404BBF
 }
-.main-titel a:focus {
+.main-titel button:focus {
     background-color: #404BBF
 }
 
